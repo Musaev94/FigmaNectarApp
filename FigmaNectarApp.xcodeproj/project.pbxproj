@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EE3FBEBEB7FC2750C25643F /* Pods_FigmaNectarApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55AF6C306F1615552D02BCD /* Pods_FigmaNectarApp.framework */; };
+		CE803082279590CC0011F032 /* chineseMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE803081279590CC0011F032 /* chineseMan.swift */; };
+		CE80308427959FB50011F032 /* registrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80308327959FB50011F032 /* registrationPage.swift */; };
+		CE8030862795D54B0011F032 /* registrCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8030852795D54B0011F032 /* registrCustomTableView.swift */; };
+		CE8030882795F1C60011F032 /* numberPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8030872795F1C60011F032 /* numberPage.swift */; };
 		CEACB2DD279415BE002446E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB2DC279415BE002446E0 /* AppDelegate.swift */; };
 		CEACB2DF279415BE002446E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB2DE279415BE002446E0 /* SceneDelegate.swift */; };
 		CEACB2E1279415BE002446E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB2E0279415BE002446E0 /* ViewController.swift */; };
@@ -16,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FA9F658CFF7F034E85EB121 /* Pods-FigmaNectarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaNectarApp.release.xcconfig"; path = "Target Support Files/Pods-FigmaNectarApp/Pods-FigmaNectarApp.release.xcconfig"; sourceTree = "<group>"; };
+		B55AF6C306F1615552D02BCD /* Pods_FigmaNectarApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FigmaNectarApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE06B951B3CA519C66B1DA6C /* Pods-FigmaNectarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigmaNectarApp.debug.xcconfig"; path = "Target Support Files/Pods-FigmaNectarApp/Pods-FigmaNectarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE803081279590CC0011F032 /* chineseMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chineseMan.swift; sourceTree = "<group>"; };
+		CE80308327959FB50011F032 /* registrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationPage.swift; sourceTree = "<group>"; };
+		CE8030852795D54B0011F032 /* registrCustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrCustomTableView.swift; sourceTree = "<group>"; };
+		CE8030872795F1C60011F032 /* numberPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberPage.swift; sourceTree = "<group>"; };
 		CEACB2D9279415BE002446E0 /* FigmaNectarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigmaNectarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEACB2DC279415BE002446E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEACB2DE279415BE002446E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE3FBEBEB7FC2750C25643F /* Pods_FigmaNectarApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65DDCB73EB8DB394E25DC056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55AF6C306F1615552D02BCD /* Pods_FigmaNectarApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C992FE2DBEDABE18B748C234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE06B951B3CA519C66B1DA6C /* Pods-FigmaNectarApp.debug.xcconfig */,
+				9FA9F658CFF7F034E85EB121 /* Pods-FigmaNectarApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEACB2D0279415BE002446E0 = {
 			isa = PBXGroup;
 			children = (
 				CEACB2DB279415BE002446E0 /* FigmaNectarApp */,
 				CEACB2DA279415BE002446E0 /* Products */,
+				C992FE2DBEDABE18B748C234 /* Pods */,
+				65DDCB73EB8DB394E25DC056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +91,10 @@
 				CEACB2DC279415BE002446E0 /* AppDelegate.swift */,
 				CEACB2DE279415BE002446E0 /* SceneDelegate.swift */,
 				CEACB2E0279415BE002446E0 /* ViewController.swift */,
+				CE803081279590CC0011F032 /* chineseMan.swift */,
+				CE80308327959FB50011F032 /* registrationPage.swift */,
+				CE8030852795D54B0011F032 /* registrCustomTableView.swift */,
+				CE8030872795F1C60011F032 /* numberPage.swift */,
 				CEACB2E2279415BE002446E0 /* Main.storyboard */,
 				CEACB2E5279415C2002446E0 /* Assets.xcassets */,
 				CEACB2E7279415C2002446E0 /* LaunchScreen.storyboard */,
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEACB2ED279415C2002446E0 /* Build configuration list for PBXNativeTarget "FigmaNectarApp" */;
 			buildPhases = (
+				063A0E440A9443C75473EF16 /* [CP] Check Pods Manifest.lock */,
 				CEACB2D5279415BE002446E0 /* Sources */,
 				CEACB2D6279415BE002446E0 /* Frameworks */,
 				CEACB2D7279415BE002446E0 /* Resources */,
+				CF7C83E30C194B74B1BB8936 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +171,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063A0E440A9443C75473EF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigmaNectarApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7C83E30C194B74B1BB8936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigmaNectarApp/Pods-FigmaNectarApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FigmaNectarApp/Pods-FigmaNectarApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FigmaNectarApp/Pods-FigmaNectarApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEACB2D5279415BE002446E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +220,11 @@
 			files = (
 				CEACB2E1279415BE002446E0 /* ViewController.swift in Sources */,
 				CEACB2DD279415BE002446E0 /* AppDelegate.swift in Sources */,
+				CE8030882795F1C60011F032 /* numberPage.swift in Sources */,
+				CE803082279590CC0011F032 /* chineseMan.swift in Sources */,
 				CEACB2DF279415BE002446E0 /* SceneDelegate.swift in Sources */,
+				CE80308427959FB50011F032 /* registrationPage.swift in Sources */,
+				CE8030862795D54B0011F032 /* registrCustomTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +368,7 @@
 		};
 		CEACB2EE279415C2002446E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE06B951B3CA519C66B1DA6C /* Pods-FigmaNectarApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +396,7 @@
 		};
 		CEACB2EF279415C2002446E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA9F658CFF7F034E85EB121 /* Pods-FigmaNectarApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
