@@ -1,0 +1,6 @@
+framework module Pods_FigmaNectarApp {
+  umbrella header "Pods-FigmaNectarApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
